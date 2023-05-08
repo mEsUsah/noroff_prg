@@ -15,6 +15,13 @@ Example: 4.1.1_generateLetters.py
 - Chapter 1
 - Assignment 1
 - The generateLettets assignment
+
+Example: 4.2.0_p13_reType.py
+- Module 4
+- Chapter 2
+- No assingment
+- Page 13 in the Moodle lecture
+- Name I gave the task: "reType"
 ```
 
 
