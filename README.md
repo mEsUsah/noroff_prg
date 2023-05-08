@@ -1,5 +1,7 @@
 # Programming class at Noroff NIS (2023)
-In this repo my solution for the tasks and assingments in the will be posted.
+In this repo I will post my solution for the tasks and assingments in the Programming 
+class at the Network and Information Security program at Noroff Vocational Collage.
+
 
 ## Module folders
 Contain solutions to tasks and asignments, organized by module
