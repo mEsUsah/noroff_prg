@@ -4,7 +4,7 @@ class at the Network and Information Security program at Noroff Vocational Colla
 
 
 ## PRG_module_* folders
-Contain solutions to tasks and asignments, organized by module
+Contain solutions to tasks and asignments, organized by module in Moodle.
 
 The in-chapter tasks and end-of-section assignments are named according to the following convention:
 ```
