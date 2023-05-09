@@ -7,5 +7,5 @@ if __name__ == "__main__":
     Demonstrate how to import these functions into another Python script and call them.
     '''
     
-    module.print_list(1,12) 
-    print("Printing result from multi function. ", module_p11_module.multi(2,5))
+    moduleOne.print_list(1,12) 
+    print("Printing result from multi function. ", moduleOne.multi(2,5))
