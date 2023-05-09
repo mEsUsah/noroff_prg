@@ -8,15 +8,15 @@ Contain solutions to tasks and asignments, organized by module in Moodle.
 
 The in-chapter tasks and end-of-section assignments are named according to the following convention:
 ```
-module.chapter.assignment_description
+moduleChapterAssignment_description
 
-Example: 4.1.1_generateLetters.py
+Example: 411_generateLetters.py
 - Module 4
 - Chapter 1
 - Assignment 1
 - The generateLettets assignment
 
-Example: 4.2.0_p13_reType.py
+Example: 420_p13_reType.py
 - Module 4
 - Chapter 2
 - No assingment
