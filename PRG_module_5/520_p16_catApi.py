@@ -11,7 +11,6 @@ def task():
     Visit The Cat API - Cats as a Service and try to create a Python API call to 
     request information regarding a specific cat breed.
     '''
-    pass
 
     url = 'https://api.thecatapi.com/v1/breeds/abys'
     headers = {
