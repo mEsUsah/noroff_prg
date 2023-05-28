@@ -3,11 +3,12 @@ from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 import base64
 
+SALT = 'salt-makes-people-eat-more'
 
 def encrypt(plaintext:str, password:str):
     plaintext = plaintext.encode()
     password = password.encode()
-    salt = 'salt-makes-people-eat-more'.encode()
+    salt = SALT.encode()
     kdf = PBKDF2HMAC(
         algorithm=hashes.SHA256(),
         length=32,
@@ -37,7 +38,7 @@ def encryption_prompt():
 
 def decrypt(ciphertext:str, password:str):
     password = password.encode()
-    salt = 'salt-makes-people-eat-more'.encode()
+    salt = SALT.encode()
     kdf = PBKDF2HMAC(
         algorithm=hashes.SHA256(),
         length=32,
