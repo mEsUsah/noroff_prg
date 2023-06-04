@@ -38,7 +38,7 @@ def parse_ARPingResult(result:ARPingResult)->list:
     # Fetch data from buffer, and store it into a variable
     raw_output = buffer.getvalue()
 
-    # Restore stdout to default for print()
+    # Restore stdout to terminal
     sys.stdout = sys.__stdout__
 
     # Convert the captured stdout into dictionary
