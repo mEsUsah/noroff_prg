@@ -17,7 +17,7 @@ class Queue:
 
 class SuperQueue(Queue):
     def __init__(self):
-        Queue.__init__(self)
+        super().__init__()
 
     
     def isempty(self):
